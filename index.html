@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP N°2 - Lenguajes III</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .carousel-item img {
+            height: 450px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div id="carouselTP" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://picsum.photos/id/1/1200/450" class="d-block w-100" alt="Slider 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/id/2/1200/450" class="d-block w-100" alt="Slider 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/id/3/1200/450" class="d-block w-100" alt="Slider 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselTP" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselTP" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section>
+            <h1>Información del Proyecto</h1>
+            <p>Este proyecto demuestra la implementación de un carrusel de imágenes utilizando el framework Bootstrap 5 a través de CDN. Se han configurado los controles laterales para la navegación y una estructura responsiva básica.</p>
+        </section>
+    </main>
+
+    <footer class="bg-light py-4 border-top">
+        <div class="container text-center">
+            <p class="mb-0">Información extraída de: <strong>Portal Educativo UCASAL</strong></p>
+            <p>Contacto de la fuente: <a href="mailto:informes@ucasal.edu.ar">informes@ucasal.edu.ar</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
