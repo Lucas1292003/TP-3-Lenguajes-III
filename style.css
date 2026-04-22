@@ -1,0 +1,87 @@
+:root {
+    --principal: #003366;
+    --secundario: #00a8e8;
+    --fondo-claro: #f0f4f8;
+    --texto-oscuro: #1a1a1a;
+    --blanco: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--fondo-claro);
+    color: var(--texto-oscuro);
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: var(--principal) !important;
+    border-bottom: 3px solid var(--secundario);
+    padding: 1rem 0;
+}
+
+.navbar-brand, .nav-link {
+    color: var(--blanco) !important;
+}
+
+.nav-link:hover {
+    color: var(--secundario) !important;
+}
+
+.carousel-item img {
+    height: 450px;
+    object-fit: cover;
+    filter: brightness(0.85);
+}
+
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    background: var(--blanco);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.card-title {
+    color: var(--principal);
+    font-weight: bold;
+}
+
+.custom-footer {
+    background-color: var(--principal);
+    color: var(--blanco) !important;
+    margin-top: 50px;
+    border-top: 4px solid var(--secundario);
+}
+
+.custom-footer p, 
+.custom-footer span, 
+.custom-footer small,
+.custom-footer .text-muted,
+.custom-footer .text-secondary {
+    color: #e0e0e0 !important;
+}
+
+.custom-footer h5 {
+    color: var(--blanco);
+    font-weight: bold;
+}
+
+.custom-footer a {
+    color: var(--secundario);
+    transition: color 0.3s ease;
+}
+
+.custom-footer a:hover {
+    color: var(--blanco);
+    text-decoration: underline !important;
+}
